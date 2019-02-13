@@ -1,4 +1,12 @@
 # Group3
 <h3>Members</h3>
-<h4>Game Idea</h4>
-<h5>Members roles</h5>
+<p>
+Andres Ortiz
+Dave Edwards
+Lydia Clare Leather
+Maksim Shutov
+Shalini Prasanna
+Wyan Jonathan
+</p>
+<h3>Game Idea</h3>
+<h3>Members roles</h3>
