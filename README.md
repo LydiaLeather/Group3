@@ -18,9 +18,12 @@ Wyan Jonathan.
 <h3>Members roles</h3>
 <p>
 Dave - Leader/Project manager<br/>
-Lydia - Meeting Noter and Documentation<br/>
-Shalini - Documentation<br/>
-Maksim - Tester<br/>
-Wyan - Programmer<br/>
+Lydia - Meeting Noter and Coordinator<br/>
+Shalini - Programmer and Tester<br/>
+Maksim - Github Manager<br/>
+Wyan - Technical Documenter<br/>
 Andres - Programmer<br/>
 </p>
+
+<h3>Trello Board Link</h3>
+<p>https://trello.com/b/gNmhOdX5/group-3</p>
