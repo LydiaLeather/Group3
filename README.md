@@ -10,6 +10,17 @@ Wyan Jonathan.
 </p>
 <h3>Game Idea</h3>
 <p>
-Wyan - Platformer Game, a player tries to gather an important thing all over the map in a certain time limit. 
+- Platformer Game, a player tries to gather an important thing all over the map in a certain time limit.<br/>
+- Educational Game, details are unknown for now.<br/>
+- 2D Sidescrolling game, player needs to move a net to catch stuff from the sky.<br/>
+- Platformer Game, player tries to catch stuff from the sky in a platform.<br/>
 </p>
 <h3>Members roles</h3>
+<p>
+Dave - Leader/Project manager<br/>
+Lydia - Meeting Noter and Documentation<br/>
+Shalini - Documentation<br/>
+Maksim - Tester<br/>
+Wyan - Programmer<br/>
+Andres - Programmer<br/>
+</p>
