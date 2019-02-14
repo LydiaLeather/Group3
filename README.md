@@ -9,4 +9,7 @@ Shalini Prasanna,
 Wyan Jonathan.
 </p>
 <h3>Game Idea</h3>
+<p>
+Wyan - Platformer Game, a player tries to gather an important thing all over the map in a certain time limit. 
+</p>
 <h3>Members roles</h3>
