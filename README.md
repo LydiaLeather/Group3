@@ -17,10 +17,10 @@ Wyan Jonathan.
 </p>
 <h3>Members roles</h3>
 <p>
-Dave - Leader/Project manager
-Lydia - Meeting Noter and Documentation
-Shalini - Documentation
-Maksim - Programmer
-Wyan - Programmer
-Andres - Programmer
+Dave - Leader/Project manager<br/>
+Lydia - Meeting Noter and Documentation<br/>
+Shalini - Documentation<br/>
+Maksim - Tester<br/>
+Wyan - Programmer<br/>
+Andres - Programmer<br/>
 </p>
