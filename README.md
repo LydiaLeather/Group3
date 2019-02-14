@@ -20,7 +20,7 @@ Wyan Jonathan.
 Dave - Leader/Project manager<br/>
 Lydia - Meeting Noter and Documentation<br/>
 Shalini - Documentation<br/>
-Maksim - Tester<br/>
+Maksim - Tester and Github Manager<br/>
 Wyan - Programmer<br/>
 Andres - Programmer<br/>
 </p>
