@@ -1,4 +1,4 @@
-# Group3
+# Maroon 6
 <h3>Members</h3>
 <p>
 Andres Ortiz,
