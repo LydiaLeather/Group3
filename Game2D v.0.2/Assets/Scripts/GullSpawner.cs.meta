@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a791bc15343fdc0439a20f855d4303a1
+timeCreated: 1550499319
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - GullPrefab: {fileID: 1878541146908534, guid: 7630ba4773591c64c91779d23a7e0eb4,
+      type: 2}
+  - EaglePrefab: {fileID: 1485796583761146, guid: 26479c829a92d024a863b5aa4c5b41a6,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
