@@ -4,7 +4,7 @@
 <br/>
 A software Specification document for a platform game using Unity. <br/>
 
-# Intruduction
+# Introduction
 This section will describe the purpose of the SRS document along with the list of definitions and acronyms. 
 
 ### Document Purpose
