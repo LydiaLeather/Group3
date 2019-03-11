@@ -9,6 +9,7 @@ public class ScoreCounter : MonoBehaviour {
 	public Text scoreText;
 	int score = 0;
 
+	//function called to increase score
 	public void IncreaseScore(int s){
 		score += s;
 		scoreText.text = score + "";
