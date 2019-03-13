@@ -6,13 +6,16 @@ public class MoveGremlin2 : MonoBehaviour {
 
 	//public static MoveGremlin moveGremlin;
 	Rigidbody2D rb;
+	//Prefab for fire attack
 	public GameObject Fireballprefab;
 	Animator an;
+	//Bools to chech for double jump and the orientation of the sprite
 	bool jump1, jump2, OnRight;
 	// Use this for initialization
 	void Start () {
 		rb = this.GetComponent<Rigidbody2D> (); 
 		an = this.GetComponent<Animator> ();
+		//Players start on the air
 		an.SetBool ("OnGround",false);
 		OnRight = true;
 	}
@@ -56,6 +59,7 @@ public class MoveGremlin2 : MonoBehaviour {
 			}
 			jump1 = false;
 		}
+		//check the direction taken to flip or not the sprite
 		if (h < 0) {
 			gameObject.GetComponent<SpriteRenderer> ().flipX = true;
 			OnRight = false;
@@ -68,6 +72,7 @@ public class MoveGremlin2 : MonoBehaviour {
 		}
 	}
 
+	//Function to perform fire attack
 	public void FireBall(){
 		if (OnRight) {
 			GameObject tmp = (GameObject)Instantiate (Fireballprefab, transform.position+new Vector3(2,0,0), Quaternion.identity);
@@ -79,6 +84,7 @@ public class MoveGremlin2 : MonoBehaviour {
 		}
 	}
 
+	//if the player hits the ground the bool variables are reset to true
 	private void OnCollisionEnter2D(Collision2D collision){
 		if (collision.transform.tag == "ground") {
 			jump1 = true;
@@ -88,7 +94,10 @@ public class MoveGremlin2 : MonoBehaviour {
 		}
 	}
 
+/*
 	void OnBecameInvisible(){
-		Destroy (gameObject);
+		//Destroy (gameObject);
 	}
+	*/
 }
+
