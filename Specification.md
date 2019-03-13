@@ -57,7 +57,7 @@ Title[ID] | Description | Verification Method
 ------------ | ------------- | ------------ 
 Launch the game app [FR1] | The user should be able to start the game app successfully within a minute. | Demonstration 
 Start the game [FR2] | The player should be able to start playing the game. | Demonstration
-Player Control [FR3] | The player should be able to control the game player sprite. | Demonstration
+Player Control [FR3] | The player should be able to control the game player sprite with no problems. (in terms of reaction time, smoothness, flow. ) | Demonstration
 Jump [FR4] | The player should be able to jump on the platform. | Demonstration
 Double Jump [FR5] | The player should be able to perform a double jump midair once until they land on a platform. | Demonstration
 Life System [FR6] | The game have a life system where the game will ends if the player's lifes are reduced to 0 | Demonstration
@@ -95,9 +95,25 @@ For more information about PG, [click here](https://www.bbfc.co.uk/what-classifi
 # Initial Game Design
 The following is the design of the game that is agreed on meetings. The meetings take place on 28/02/2019 and 07/03/2019. 
 <br/><br/>
-## Game 
+## Gameplay 
 **Game Title**: Not Your Toy. <br/>
 **Story**: A wizard had turned a dog into a slinky dog toy (the player). The dog has to collect coins and avoid the wizard's pet dragon to defeat the wizard. <br/>
 **Game World**: A single linear platform level. <br/>
 Screenshot of Initial Prototype: <br/>
-![Initial proto](/Markdown Images/GameSnapshot1.png)
+![Initial proto](https://github.com/LydiaLeather/Group3/blob/wyan/Markdown%20Images/GameSnapshot1.JPG.jpg)
+## Artistic Designs 
+**Theme**: Castle themed. <br/>
+**Slinky Dog**:
+We have decided to have the player sprite split into 2 instances. Since it is a slinky dog, the dog is divided by 2 parts, the upper part of his body (head) and the lower part of the body (tail), divided by the slinky part. The player (or players) can control these 2 parts of the body at the same time on a single keyboard (wasd and arrow keys). Both parts of the body will not be able to seperate too far since the slinky will limit on how much apart can they be. 
+<br/><br/>
+The 2 controllable slinky dog parts will impact how the player collecting points and avoid threats. 
+<br/><br/>
+Initial Sprite Design:<br/>
+![Slinky Dog](https://github.com/LydiaLeather/Group3/blob/wyan/Design/Slinky/Slinky%20dog.png)
+![back Dog](https://github.com/LydiaLeather/Group3/blob/wyan/Design/Slinky/Slink1.gif)
+![Front Dog](https://github.com/LydiaLeather/Group3/blob/wyan/Design/Slinky/F_Slink1.gif)
+
+## Music 
+We have obtained music and sound effects from the following websites: <br/>
+- Sound Effects: [Sounds Resource](https://www.sounds-resource.com/) <br/>
+- Music: [Orange Free Sounds](http://www.orangefreesounds.com/analog-dream-electronic-downtempo-music/)
