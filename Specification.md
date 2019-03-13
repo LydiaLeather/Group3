@@ -52,7 +52,7 @@ This section will explain how the whole game works. It will be explained how eac
 # Functional Requirements of the System
 This section includes requirements that specify the system's fundemental behaviour and actions. 
 
-# Functional Requirements
+# Basic Functional Requirements
 Title[ID] | Description | Verification Method 
 ------------ | ------------- | ------------ 
 Launch the game app [FR1] | The user should be able to start the game app successfully within a minute. | Demonstration 
@@ -88,3 +88,16 @@ There are no direct hardware interface.
 - Client's Request: The client has requested us to use Unity engine to develop the game and and run the game. 
 #### Safety Requirements
 Due to the target age range, the game must be family friendly. (No inappropriate graphics such as violence, blood, and drugs)
+<br/><br/>
+The game should be rated PG 3. <br/>
+For more information about PG, [click here](https://www.bbfc.co.uk/what-classification/pg).
+
+# Initial Game Design
+The following is the design of the game that is agreed on meetings. The meetings take place on 28/02/2019 and 07/03/2019. 
+<br/><br/>
+## Game 
+**Game Title**: Not Your Toy. <br/>
+**Story**: A wizard had turned a dog into a slinky dog toy (the player). The dog has to collect coins and avoid the wizard's pet dragon to defeat the wizard. <br/>
+**Game World**: A single linear platform level. <br/>
+Screenshot of Initial Prototype: <br/>
+![Initial proto](/Markdown Images/GameSnapshot1.png)
