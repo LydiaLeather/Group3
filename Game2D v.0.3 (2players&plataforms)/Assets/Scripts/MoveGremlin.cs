@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MoveGremlin : MonoBehaviour {
 
@@ -8,6 +9,10 @@ public class MoveGremlin : MonoBehaviour {
 	Rigidbody2D rb;
 	//Prefab for fire attack
 	public GameObject Fireballprefab;
+
+    //reference to the score text
+    public Text countText;
+
 	Animator an;
 	//Bools to chech for double jump and the orientation of the sprite
 	bool jump1, jump2, OnRight;
@@ -90,4 +95,22 @@ public class MoveGremlin : MonoBehaviour {
 	void OnBecameInvisible(){
 		Destroy (gameObject);
 	}
+
+
+    //OnTriggerEnter2D is called whenever this object overlaps with a trigger collider.
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        //Check the provided Collider2D parameter other to see if it is tagged "PickUp", if it is...
+        if (other.gameObject.CompareTag("Coin")) {
+
+            //... then set the other object we just collided with to inactive.
+            other.gameObject.SetActive(false);
+            //Destroy(other.gameObject);
+            //Add one to the current value of our count variable.
+
+            countText.text = (int.Parse(countText.text) + 1).ToString();
+            //Update the currently displayed count by calling the SetCountText function.
+            //SetCountText();
+        }
+    }
 }
