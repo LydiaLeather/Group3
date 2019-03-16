@@ -121,8 +121,9 @@ We have obtained music and sound effects from the following websites: <br/>
 
 # Testing 
 The following is the test result based on the Functional and Non-Functional Requirements that are stated above. The test is done on Sunday xx/xx/2019 and is done by Wyan Jonathan. <br/>
-Requirement ID | Type of Test | Successful/Failed | Additional Comments
------------- | ------------- | ------------ | ------------
+
+Requirement ID | Type of Test | Successful/Failed | Additional Comments 
+------------ | ------------- | ------------ | ------------ 
 FR1 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
 
 # Conclusion of Test
