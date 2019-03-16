@@ -45,7 +45,7 @@ public class GullSpawner : MonoBehaviour {
 			//vel -= 0.3f;
 			tSpawn -= 0.001f; 
 			float x = ((player.position.x+player2.position.x)/2)+11f;
-			float y = Random.Range (((player.position.y+player2.position.y)/2)+1.5f, ((player.position.y+player2.position.y)/2)+8f);
+			float y = Random.Range (((player.position.y+player2.position.y)/2)-2f, ((player.position.y+player2.position.y)/2)+4f);
 			Vector3 pos = new Vector3 (x,y,0);
 			Quaternion rot = new Quaternion();
 			Instantiate(GullPrefab, pos, rot);

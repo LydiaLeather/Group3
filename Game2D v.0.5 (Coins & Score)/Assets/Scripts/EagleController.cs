@@ -28,7 +28,7 @@ public class EagleController : MonoBehaviour {
 	//If the enemy is collisioned it is destroyed
 	private void OnTriggerEnter2D(Collider2D collision){
 		//gameObject.SetActive(false);
-		Destroy(transform.parent.gameObject);
+		//Destroy(transform.parent.gameObject);
 	}
 
 	void OnBecameInvisible(){
