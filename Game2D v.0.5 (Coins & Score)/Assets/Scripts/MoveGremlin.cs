@@ -7,6 +7,9 @@ public class MoveGremlin : MonoBehaviour {
 
 	//public static MoveGremlin moveGremlin;
 	Rigidbody2D rb;
+	//Audios for the player
+	public AudioSource Jump;
+	public AudioSource FireAttack;
 	//Prefab for fire attack
 	public GameObject Fireballprefab;
 
@@ -45,6 +48,7 @@ public class MoveGremlin : MonoBehaviour {
 			}
 
 		if (Input.GetKeyDown ("up") && jump2) {
+			Jump.Play ();
 			rb.AddForce(new Vector2 (0, 22f), ForceMode2D.Impulse);
 
 			an.SetBool ("OnGround",false);
@@ -65,6 +69,7 @@ public class MoveGremlin : MonoBehaviour {
 		}
 
 		if (Input.GetKeyDown ("l")){
+			FireAttack.Play ();
 			FireBall();
 		}
 	}
@@ -113,4 +118,5 @@ public class MoveGremlin : MonoBehaviour {
             //SetCountText();
         }
     }
+
 }
