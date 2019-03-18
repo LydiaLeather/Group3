@@ -89,6 +89,7 @@
     <Compile Include="Assets\Scripts\MoveGremlin2.cs" />
     <Compile Include="Assets\Scripts\ScoreCounter.cs" />
     <Compile Include="Assets\Scripts\Scroll.cs" />
+    <Compile Include="Assets\Scripts\instructionsScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

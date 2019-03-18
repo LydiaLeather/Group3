@@ -15,8 +15,10 @@ public class MoveGremlin : MonoBehaviour {
 
     //reference to the score text
     public Text countText;
+    public Text gameOverText;
+    bool canRestart = false;
 
-	Animator an;
+    Animator an;
 	//Bools to chech for double jump and the orientation of the sprite
 	bool jump1, jump2, OnRight;
 	//public float Ypos;
@@ -31,8 +33,20 @@ public class MoveGremlin : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-		float h = Input.GetAxis ("Horizontal");
+
+        //if player falls below 0, the game ends and can be restarted
+        if (rb.transform.position.y < 0) {
+            gameOverText.text = "Game over!\nScore: " + int.Parse(countText.text) + "\nPress 'R' to restart";
+            canRestart = true;
+        }
+        //restart itself
+        if (canRestart && Input.GetKeyDown(KeyCode.R)) {
+            #pragma warning disable CS0618 // Type or member is obsolete
+            Application.LoadLevel(Application.loadedLevel);
+            #pragma warning restore CS0618 // Type or member is obsolete
+        }
+
+        float h = Input.GetAxis ("Horizontal");
 
 		rb.AddForce(new Vector2(h, 0), ForceMode2D.Impulse);
 		//rb.velocity = new Vector2((h*10), an.velocity.y);
