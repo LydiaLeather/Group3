@@ -36,7 +36,7 @@ public class MoveGremlin : MonoBehaviour {
 
         //if player falls below 0, the game ends and can be restarted
         if (rb.transform.position.y < 0) {
-            gameOverText.text = "Game over! \n Score: " + int.Parse(countText.text) + " \n Press 'R' to restart";
+            gameOverText.text = "Game over!\nScore: " + int.Parse(countText.text) + "\nPress 'R' to restart";
             canRestart = true;
         }
         //restart itself
