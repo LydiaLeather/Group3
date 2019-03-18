@@ -1,4 +1,4 @@
-# **Software Requirements Specification**
+# **Software Requirements Documentation**
 24th February 2018 - [IDK]
 <br/>
 <br/>
@@ -64,8 +64,8 @@ Life System [FR6] | The game have a life system where the game will ends if the 
 Score System and Scoreboard [FR7] | The game have a score system that keep track's the player's performance during the game | Demonstration
 Collect Objects [FR8] | There should be an object ingame that spawns randomly that increases the player's score if the player collides with it | Demonstration
 Enemies and Hazards [FR9] | There should be enemies and environmental hazards ingame that reduces the player's life count upon collision | Demonstration
-Power Ups [FR10] | There should be power ups that modify how the character behaves positively upon inputs | Demonstration
-Negative Power Ups [FR11] | There should be negative power ups that modify how the character behaves negatively upon inputs | Demonstration
+Ability [FR10] | There should be ability that modify how the character behaves positively upon inputs | Demonstration
+Debuff [FR11] | There should be negative power ups that modify how the character behaves negatively upon inputs | Demonstration
 Level(s) [FR12] | The game should at least contain a single level where the player plays | Demonstration
 Music [FR13] | Various music and sound effects should play when the player plays the game (background, sound effects, upon win, upon lose, get high score, etc) | Demonstration
 Tutorial Page [FR14] | There should be a page/mechanic ingame to teach the player the objective of the game, obstacles, and how to control the player sprite | Demonstration
@@ -124,26 +124,39 @@ The following is the test result based on the Functional and Non-Functional Requ
 
 Requirement ID | Type of Test | Successful/Failed | Additional Comments 
 ------------ | ------------- | ------------ | ------------ 
-FR1 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR2 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR3 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR4 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR5 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR6 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR7 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR8 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR9 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR10 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR11 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR12 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR13 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR14 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR15 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-FR16 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR1 | Blackbox Test | Successful | The game can be successfuly launched in seconds. (averagely 15 Seconds)
+FR2 | Blackbox Test | Successful | "Start Game" button pressed  and game starts. 
+FR3 | Blackbox Test | Successful | Player can both control 2 parts of the slinky dog. Controls are responsive, but it can be improved in the future since it's "clunky" for some people.  
+FR4 | Blackbox Test | Successful | Player can perform jumps while standing on the platform during testing. 
+FR5 | Blackbox Test | Successful | Player can jump midair during testing.  
+FR6 | Blackbox Test | Failed | Not Implemented. 
+FR7 | Blackbox Test | Partially Successful | The game has a score counter, but does not have a scorevoard to save the score.  
+FR8 | Blackbox Test | Successful | There are coins on the level that increase the player's score upon collision. 
+FR9 | Blackbox Test | Successful | There are enemy dragons that ends the game upon collision with player. 
+FR10 | Blackbox Test | Successful | The player has an ability to shoot fireballs to kill dragons. 
+FR11 | Blackbox Test | Failed | Not Implemented. 
+FR12 | Blackbox Test | Successful | Currently the game has a single never ending level.  
+FR13 | Blackbox Test | Successful | The game has a specific music that plays on the menu, ingame, and sound effects. 
+FR14 | Blackbox Test | Successful | In the menu, the controls and how to play the game are shown with a click of a button. Altho, it's fairly hidden. 
+FR15 | Blackbox Test | Successful | The game has a main menu that is shown first by default.  
+FR16 | Blackbox Test | Successful | The camera follows the player sprite.  
 
 Requirement ID | Type of Test | Successful/Failed | Additional Comments 
 ------------ | ------------- | ------------ | ------------ 
-NR1 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
-NR2 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+NR1 | Blackbox Test | Successful | The game responds appropriately.  
+NR2 | Blackbox Test | Unknown | No crash during testing. 
 
 # Conclusion of Test
+As shown from the above tables, majority of the specification and requirements are fulfilled. The test does not reveal any technical bugs, at worse there are only missing features that are originally planned to have. Some features are not implemented sue to the limitted time we had to develop this game. The final game also complied with our client's requirements and PG 3 rating. 
+<br/> <br/>
+With all this in mind, we have decided that the game is finished and ready to be sent to the client. 
+
+# Screenshots of the Final Game
+Title Screen: <br/>
+![Title](https://github.com/LydiaLeather/Group3/blob/wyan/Markdown%20Images/WhatsApp%20Image%202019-03-18%20at%2012.50.28%20PM.jpeg)
+<br/>
+Main Menu Screen: <br/>
+![Main Menu](https://github.com/LydiaLeather/Group3/blob/wyan/Markdown%20Images/WhatsApp%20Image%202019-03-18%20at%2012.50.28%20PM%20(1).jpeg)
+<br/>
+In-game: <br/>
+![In-Game](https://github.com/LydiaLeather/Group3/blob/wyan/Markdown%20Images/WhatsApp%20Image%202019-03-18%20at%2012.50.28%20PM%20(2).jpeg)
