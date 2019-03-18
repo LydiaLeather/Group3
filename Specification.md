@@ -70,7 +70,7 @@ Level(s) [FR12] | The game should at least contain a single level where the play
 Music [FR13] | Various music and sound effects should play when the player plays the game (background, sound effects, upon win, upon lose, get high score, etc) | Demonstration
 Tutorial Page [FR14] | There should be a page/mechanic ingame to teach the player the objective of the game, obstacles, and how to control the player sprite | Demonstration
 Main Menu [FR15] | There should be a menu when the player first open the game for players to start a game, see the game's controls, credits, and quit | Demonstration
-camera [FR16] | The game camera (view) should follow the player's sprite. | Demonstration
+Camera [FR16] | The game camera (view) should follow the player's sprite. | Demonstration
 
 
 # Non-functional Requirements of the System
@@ -125,5 +125,25 @@ The following is the test result based on the Functional and Non-Functional Requ
 Requirement ID | Type of Test | Successful/Failed | Additional Comments 
 ------------ | ------------- | ------------ | ------------ 
 FR1 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR2 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR3 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR4 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR5 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR6 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR7 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR8 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR9 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR10 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR11 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR12 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR13 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR14 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR15 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+FR16 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+
+Requirement ID | Type of Test | Successful/Failed | Additional Comments 
+------------ | ------------- | ------------ | ------------ 
+NR1 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
+NR2 | Blackbox Test | Successful | The game can be succesffuly launched in seconds. 
 
 # Conclusion of Test
