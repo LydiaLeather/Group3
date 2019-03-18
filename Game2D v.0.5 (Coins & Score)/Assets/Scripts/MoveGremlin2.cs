@@ -5,13 +5,19 @@ using UnityEngine.UI;
 
 public class MoveGremlin2 : MonoBehaviour {
 
-	//public static MoveGremlin moveGremlin;
-	Rigidbody2D rb;
+    //the reference to the other player
+    public Rigidbody2D otherGuy;
+
+    //public static MoveGremlin moveGremlin;
+    Rigidbody2D rb;
 	//Audios for the player
 	public AudioSource Jump;
 	public AudioSource FireAttack;
 	//Prefab for fire attack
 	public GameObject Fireballprefab;
+
+    public Text gameOverText;
+    bool canRestart;
 
     //reference to the score text
     public Text countText;
@@ -30,9 +36,34 @@ public class MoveGremlin2 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//float fleft = Input.GetKey ("f");
-		//float hright = Input.Getkey ("h");
-		float h;
+
+
+        //if player falls below y == -10, the game ends and can be restarted
+        if (rb.transform.position.y < -10 || rb.gameObject.tag == "TouchedDragon")
+        {
+            gameOverText.text = "Game over!\nScore: " + int.Parse(countText.text) + "\nPress 'R' to restart";
+            otherGuy.gameObject.tag = "TouchedDragon";
+            canRestart = true;
+        }
+        //restart itself
+        if (canRestart)
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+#pragma warning disable CS0618 // Type or member is obsolete
+                Application.LoadLevel(Application.loadedLevel);
+#pragma warning restore CS0618 // Type or member is obsolete
+            }
+            else
+            {
+                return;
+            }
+        }
+
+
+        //float fleft = Input.GetKey ("f");
+        //float hright = Input.Getkey ("h");
+        float h;
 		if (Input.GetKey ("h")){
 			h=1;
 		}

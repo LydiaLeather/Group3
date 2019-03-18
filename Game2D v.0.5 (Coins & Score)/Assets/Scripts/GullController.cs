@@ -40,13 +40,14 @@ public class GullController : MonoBehaviour {
 		//gameObject.SetActive(false);
 		ScoreCounter.scoreCounter.IncreaseScore(1);
 		if ((other.gameObject.name == "Player") || other.gameObject.name == "Player2") {
-			//here the game should end
-			Application.Quit();
+            //here the game should end
+            //Application.Quit();
+            other.gameObject.tag = "TouchedDragon";
 
-			//Destroy (playerG);
-			//Destroy (player2G);
-		}
-		Destroy(transform.parent.gameObject);
+            //Destroy (playerG);
+            //Destroy (player2G);
+        }
+        Destroy(transform.parent.gameObject);
 	}
 	void OnBecameInvisible(){
 		//Destroy(transform.parent.gameObject);
