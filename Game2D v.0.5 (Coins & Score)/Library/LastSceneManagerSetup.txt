@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/ScenesGUI/UIandInsts.unity
-  isLoaded: 1
-  isActive: 1
