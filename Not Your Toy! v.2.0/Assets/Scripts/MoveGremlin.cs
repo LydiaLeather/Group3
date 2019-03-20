@@ -13,7 +13,8 @@ public class MoveGremlin : MonoBehaviour {
     Rigidbody2D rb;
 	//Audios for the player
 	public AudioSource Jump;
-	public AudioSource FireAttack;
+    public AudioSource Death;
+    public AudioSource FireAttack;
 	//Prefab for fire attack
 	public GameObject Fireballprefab;
 
@@ -40,10 +41,11 @@ public class MoveGremlin : MonoBehaviour {
 
 
         //if player falls below y == -10, the game ends and can be restarted
-        if (rb.transform.position.y < -10 || rb.gameObject.tag == "TouchedDragon") {
+        if (canRestart == false && (rb.transform.position.y < -10 || rb.gameObject.tag == "TouchedDragon")) {
             gameOverText.text = "Game over!\nScore: " + int.Parse(countText.text) + "\nPress 'R' to restart";
             otherGuy.gameObject.tag = "TouchedDragon";
             canRestart = true;
+            Death.Play();
         }
         //restart itself
         if (canRestart)
